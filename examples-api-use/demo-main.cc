@@ -39,7 +39,7 @@ using std::max;
 using namespace rgb_matrix;
 
 // MQTT Config
-const char* MQTT_BROKER_IP = "192.168.0.227";
+const char* MQTT_BROKER_IP = "siemens-display-whisper-mask.local";
 const int MQTT_PORT = 1883;
 
 std::atomic<bool> mouth_active(false);
